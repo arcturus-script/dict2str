@@ -1,6 +1,6 @@
 # dict2str
 
-Support converting dictionary to markdown、html、txt
+Support converting dictionary to markdown, html and txt
 
 ## Usage
 
