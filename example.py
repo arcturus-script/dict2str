@@ -36,6 +36,14 @@ d = dict2str(
 
 print(d)
 
+d.set("html")
+
+print(d)
+
+d.set("txt")
+
+print(d)
+
 d = dict2str(
     [
         {
@@ -120,6 +128,14 @@ d = dict2str(
 
 print(d)
 
+d.set("html")
+
+print(d)
+
+d.set("txt")
+
+print(d)
+
 d = dict2str(
     [
         {
@@ -130,8 +146,8 @@ d = dict2str(
                 ],
                 "end": "\n",
                 "position": "left",
-            },
-        },
+            }
+        }
     ],
     type="html",
 )
