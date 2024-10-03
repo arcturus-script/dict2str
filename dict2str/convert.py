@@ -383,8 +383,8 @@ class txt(convert):
 
 class bold(convert):
     @staticmethod
-    def toTxt(content, end="", **kwargs):
-        return convert.toTxt(content, end, **kwargs)
+    def toTxt(content, **kwargs):
+        return convert.toTxt(content, **kwargs)
 
     @staticmethod
     def toMd(content, **kwargs):
