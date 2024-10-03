@@ -1,1 +1,4 @@
 __pycache__
+.pypirc
+dist
+dict2str.egg-info
