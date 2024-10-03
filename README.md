@@ -116,14 +116,14 @@ d = dict2str(
 
 print(d)
 
-# 0. A
+# 1. A
 #   - B
-#     0. C
-#     1. D
+#     1. C
+#     2. D
 #   - E
 #     - F
 #     - G
-# 1. H
+# 2. H
 # - run 100 kilometers
 # - do homeworks
 ```

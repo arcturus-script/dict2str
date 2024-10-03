@@ -44,7 +44,7 @@ class orderedList(convert):
         for idx, value in enumerate(contents):
             content = value["content"]
 
-            res += f"{'  ' * level}{idx}. {content}{end}"
+            res += f"{'  ' * level}{idx + 1}. {content}{end}"
 
             level += 1
             items = value.get("items")
@@ -65,7 +65,7 @@ class orderedList(convert):
         for idx, value in enumerate(contents):
             content = value["content"]
 
-            res += f"{'  ' * level}{idx}. {content}{end}"
+            res += f"{'  ' * level}{idx + 1}. {content}{end}"
 
             level += 1
             items = value.get("items")
