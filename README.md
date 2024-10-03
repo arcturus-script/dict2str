@@ -4,6 +4,8 @@ Support converting dictionary to markdown、html、txt
 
 ## Usage
 
+### Input list
+
 ```python
 d = dict2str(
     [
@@ -126,4 +128,22 @@ print(d)
 # 2. H
 # - run 100 kilometers
 # - do homeworks
+```
+
+### Input dictionary
+
+```python
+d = dict2str(
+    {
+        "img": {
+            "url": "https://abc.png",
+            "alt": "this is an image",
+        }
+    },
+    type="markdown",
+)
+
+print(d)
+
+# ![this is an image](https://abc.png)
 ```

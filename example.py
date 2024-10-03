@@ -220,3 +220,15 @@ print(d)
 d.set("txt")
 
 print(d)
+
+d = dict2str(
+    {
+        "img": {
+            "url": "https://abc.png",
+            "alt": "this is an image",
+        }
+    },
+    type="markdown",
+)
+
+print(d)

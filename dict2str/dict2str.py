@@ -20,6 +20,9 @@ class dict2str:
 
         res = ""
 
+        if isinstance(self.content, dict):
+            self.content = [self.content]
+
         for item in self.content:
             for t, v in item.items():
                 obj = getattr(C, t)
