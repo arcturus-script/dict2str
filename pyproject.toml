@@ -1,0 +1,20 @@
+[project]
+name = "dict2str"
+version = "0.1.0"
+description = "A tool supports converting dictionary to markdown, html and txt."
+authors = [
+    {name = "ARCTURUS",email = "ice99125@qq.com"},
+]
+dependencies = [
+    "setuptools",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "MIT Licence"}
+keywords = ["dict", "markdown", "html", "txt"]
+
+
+[project.urls]
+Homepage = "https://github.com/arcturus-script/dict2str"
+[tool.pdm]
+distribution = false
