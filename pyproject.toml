@@ -17,4 +17,4 @@ keywords = ["dict", "markdown", "html", "txt"]
 [project.urls]
 Homepage = "https://github.com/arcturus-script/dict2str"
 [tool.pdm]
-distribution = false
+distribution = true
